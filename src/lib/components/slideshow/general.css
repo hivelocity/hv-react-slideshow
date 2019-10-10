@@ -81,7 +81,7 @@
 }
 
 .react-slideshow-container + div.indicators > div.active {
-  background: #000;
+  background: #e31837;
 }
 
 .react-slideshow-container + div.indicators > div:last-of-type {
