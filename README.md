@@ -2,18 +2,18 @@
 
 [![CircleCI](https://circleci.com/gh/femioladeji/react-slideshow.svg?style=svg)](https://circleci.com/gh/femioladeji/react-slideshow)
 [![codecov](https://codecov.io/gh/femioladeji/react-slideshow/branch/master/graph/badge.svg)](https://codecov.io/gh/femioladeji/react-slideshow)
-[![Package Quality](http://npm.packagequality.com/shield/react-slideshow-image.svg)](http://packagequality.com/#?package=react-slideshow-image)
-[![downloads](https://img.shields.io/npm/dt/react-slideshow-image.svg)](https://www.npmjs.com/package/react-slideshow-image)
+[![Package Quality](http://npm.packagequality.com/shield/hv-react-slideshow-image.svg)](http://packagequality.com/#?package=hv-react-slideshow-image)
+[![downloads](https://img.shields.io/npm/dt/hv-react-slideshow-image.svg)](https://www.npmjs.com/package/hv-react-slideshow-image)
 
 A simple slideshow component built with react that supports slide, fade and zoom effects
 
 Installation
 ```
-npm install react-slideshow-image -S
+npm install hv-react-slideshow-image -S
 ```
 
 ```
-yarn add react-slideshow-image
+yarn add hv-react-slideshow-image
 ```
 
 You can use three different effects of the slideshow. Check the [demo](https://react-slideshow.herokuapp.com)
@@ -21,7 +21,7 @@ You can use three different effects of the slideshow. Check the [demo](https://r
 ## Slide Effect
 ```js
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Slide } from 'hv-react-slideshow-image';
 
 const slideImages = [
   'images/slide_2.jpg',
@@ -69,7 +69,7 @@ The default value for duration and transitionDuration is 5000 and 1000 milliseco
 ## Fade Effect
 ```js
 import React from 'react';
-import { Fade } from 'react-slideshow-image';
+import { Fade } from 'hv-react-slideshow-image';
 
 const fadeImages = [
   'images/slide_5.jpg',
@@ -119,7 +119,7 @@ The default value for duration and transitionDuration is 5000 and 1000 milliseco
 ## Zoom Effect
 ```js
 import React from 'react';
-import { Zoom } from 'react-slideshow-image';
+import { Zoom } from 'hv-react-slideshow-image';
 
 const images = [
   'images/slide_2.jpg',
